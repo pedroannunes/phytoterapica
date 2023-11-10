@@ -1,0 +1,291 @@
+.caixainscricao{
+    position: relative;
+    margin-top: 950px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    height: 120px;
+    background-color: #F5F5F5;
+}
+
+.caixaemail{
+    width: 535px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid #CCCCCC;
+    color: #333333;
+    padding-left: 20px;
+}
+
+.caixabotao{
+    margin-left: 20px;
+    height: 45px;
+    border-radius: 30px;
+    width: 270px;
+    text-align: center;
+    background-color: #98B020;
+    border: none;
+    color: white;
+}
+
+.caixabotao:hover{
+    background-color: #adc829;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.caixaemail::placeholder{
+    position: relative;
+}
+
+.caixainscricao h1{
+    margin: 0;
+    font-size: 22px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.caixainscricao p{
+    margin: 0;
+    font-size: 13px;
+    color: #838282;
+}
+
+.inscrevase{
+    position: relative;
+    margin-left: 25px;
+    font-family: Arial, sans-serif;
+}
+
+.abaixoinscrevase{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 77%;
+    margin: auto;
+}
+
+.abaixoinscrevase img{
+    width: 47px;
+}
+
+.vegano, .cruelty, .puro{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.puro img, .puro h1, .puro p{
+    margin-left: 70px;
+}
+
+.vegano h2, .cruelty h2, .puro h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.vegano p, .cruelty p, .puro p{
+    margin: 0;
+    font-size: 15px;
+}
+
+hr{
+    height: 40px;
+    margin-top: 30px;
+}
+
+.footerlistas{
+    height: 345px;
+    border: 1px solid #CCCCCC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sobre{
+    width: 200px;
+    height: max-content;
+    margin: 20px;
+    margin-left: -30px;
+    font-size: 14px;
+    color: #5d5a5d;
+    margin-left: 0;
+}
+
+.sobre h5{
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.suporte{
+    width: 200px;
+    height: max-content;
+    margin: 20px;
+    margin-left: -30px;
+    font-size: 14px;
+    color: #5d5a5d;
+    margin-left: 10px;
+}
+
+.suporte .texto2{
+    width: 200px;
+    margin: 0;
+    flex-direction: column;
+    margin-top:50px;
+}
+
+.suporte .texto2 a{
+    text-decoration: none;
+    color: #5A5D5A;
+}
+
+.suporte .texto2 a:hover{
+    color: #adc829;
+    transition: 1s;
+}
+
+.areacliente{
+    width: 200px;
+    height: max-content;
+    margin: 20px;
+    margin-left: -30px;
+    font-size: 14px;
+    color: #5d5a5d;
+    margin-left: 20px;
+}
+
+.areacliente h5{
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.suporte h5{
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.ulfooter{
+    margin: 0;
+    width: 100%;
+    height: max-content;
+    align-items: baseline;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.ulfooter a{
+    text-decoration: none;
+    color: #5d5a5d;
+}
+
+.ulfooter a:hover{
+    cursor: pointer;
+    color: #adc829;
+    transition: 1s;
+}
+
+li{
+    margin-top: -20px;
+}
+
+
+.formaspagamentos{
+    height: 200px;
+    margin-top: 30px;
+    margin-right: 70px;
+    font-size:17px;
+}
+
+
+.formaspagamentos h5{
+    text-align: center;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #5A5D5A;
+}
+
+.imagenspagamentos{
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+    height: 100px;
+    width: 160px;
+    margin-top: -7px;
+    justify-content: space-between;
+    margin-left: 12px;
+}
+
+.formaspagamentos img{
+    width: 45px;
+}
+
+.caixalogoredessociais{
+    width: 220px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.imglogo{
+    width: 250px;
+    margin-left: 25px;
+    margin-bottom: 7px;
+}
+
+.iconesredesociais{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 1px solid #CCCCCC;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.iconesredesociais img{
+    margin: 0;
+    width: 32px;
+}
+
+.imgabaixoicones{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 13px;
+}
+
+.imgabaixoicones .imgvtex{
+    width: 62px;
+    height: 39px;
+}
+
+.imgabaixoicones .imggooglesafe{
+    position: relative;
+    width: 151px;
+    height: 41px;
+    right: -1px;
+}
+
+.imgabaixoicones .imgeureciclo{
+    width: 41px;
+    height: 41px;
+}
+
+.imgabaixoicones .imggodaddy{
+    width: 168px;
+    position: relative;
+    height: 41px;
+    right: 15px;
+}

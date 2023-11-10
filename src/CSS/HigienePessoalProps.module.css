@@ -1,0 +1,106 @@
+.maincaixas{
+    width: 92%;
+    height: 700px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.sectcaixas{
+    display: grid;
+    grid-template-columns: 25% 26% 25% 26%;
+}
+
+.caixas{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.caixas1, .caixas2, .caixas3, .caixas4, .caixas5, .caixas6, .caixas7, .caixas8, .caixas9, .caixas10, .caixas11, .caixas12{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+div.caixas1:hover .imgcaixa{
+    content: url('../imagens/pessoal/Higiene_pessoal_hover/sabonete_lavanda_e_rosa_mosqueta_100g_-_phytoterapica_2_.webp');
+    cursor: pointer;
+}
+
+div.caixas2:hover .imgcaixa{
+    content: url('../imagens/pessoal/Higiene_pessoal_hover/Mockup_Sabonete_Ylang_Ylang_cinza.webp');
+    cursor: pointer;
+}
+div.caixas3:hover .imgcaixa{
+    content: url('../imagens/pessoal/Higiene_pessoal_hover/sabonete_melaleuca_gergelim.webp');
+    cursor: pointer;
+}
+div.caixas4:hover .imgcaixa{
+    content: url('../imagens/pessoal/Mockup-Gel-Dental-Sangue-de-Dragao-Ecommerce.jpg');
+    cursor: pointer;
+}
+div.caixas5:hover .imgcaixa{
+    content: url('../imagens/pessoal/Higiene_pessoal_hover/Mockup_Sabonete_Limao_Siciliano_cinza.webp');
+    cursor: pointer;
+}
+div.caixas6:hover .imgcaixa{
+    content: url('../imagens/pessoal/Kit_Miniaturas_Sabonetes_1000x1000px_Cinza.jpg');
+    cursor: pointer;
+}
+div.caixas7:hover .imgcaixa{
+    content: url('../imagens/pessoal/Higiene_pessoal_hover/sabonete-lemongrass-abacate_100g_phytoterapica_a.webp');
+    cursor: pointer;
+}
+div.caixas8:hover .imgcaixa{
+    content: url('../imagens/pessoal/Higiene_pessoal_hover/sabonete_menta_e_germe_de_trigo_100g_-_phytoterapica_2_.webp');
+    cursor: pointer;
+}
+div.caixas9:hover .imgcaixa{
+    content: url('../imagens/pessoal/Higiene_pessoal_hover/gel-dental-infantil-phytoterapica-50g-a.webp');
+    cursor: pointer;
+}
+div.caixas10:hover .imgcaixa{
+    content: url('../imagens/pessoal/enxaguante_bucal_herbal_250ml_-_phytoterapica_1.jpg');
+    cursor: pointer;
+}
+div.caixas11:hover .imgcaixa{
+    content: url('../imagens/pessoal/Higiene_pessoal_hover/creme-dental-herbal-adulto-80g-phytoterapica-02.webp');
+    cursor: pointer;
+}
+
+.imgcaixa{
+    width: 330px;
+    height: 350px;
+}
+
+.preco{
+    color: #98B148;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.precoprodutodesconto{
+    color: #98B148;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.caixalinhadesconto{
+    height: 20px;
+}
+
+.linhadesconto{
+    text-decoration: line-through;
+
+}
+
+.legendaimg{
+    display: flex;
+    justify-content: left;
+    height: 25px;
+    width: 85%;
+}
+
+.textoparcela{
+    margin-top: -20px;
+}

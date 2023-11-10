@@ -1,0 +1,79 @@
+.imglogo{
+    position: relative;
+    width: 320px;
+    height: 95px;
+    margin-left: 3%;
+}
+
+header{
+    display: flex;
+    height: 105px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.caixaheader{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 60px;
+    gap: 10px;
+}
+
+.botaodesc{
+    width: 244px;
+    height: 33px;
+    font-size: 12px;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #666666;
+    background-color: white;
+}
+
+.textopadrao::after{
+    content: "-5% NA PRIMEIRA COMPRA";
+}
+
+.botaodesc:hover .textopadrao::after{
+    color: white;
+    border: none;
+    content: "Clique para copiar : CUPOM5";
+}
+
+.botaodesc:hover{
+    background-color: #98B020;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+span{
+    flex: 1;
+    color: #666666;
+}
+
+#imgporcent{
+    position: relative;
+    width: 25px;
+    margin-right: 5px;
+}
+
+.iconshd{
+    position: relative;
+    width: 23px;
+    height: 23px;
+    margin-top: 9px;
+
+}
+
+.caixapesq{
+    width: 250px;
+    height: 31px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #CCCCCC;
+}
+

@@ -1,0 +1,333 @@
+
+
+.resumolink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 220px;
+    background-image: url('../imagens/fundoresumolinks.png');
+    background-size: cover;
+}
+
+img{
+    background-size: cover;
+}
+
+.tituloh1{
+    font-size: 28px;
+    color: #666666;
+    margin-left: 4%;
+    font-weight: 500;
+}
+
+.subtitp{
+    width: 44%;
+    margin-top: -10px;
+    color: #9aa3a7;
+    margin-left: 4%;
+}
+
+.linkabxres{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+ul{
+    display: flex;
+    margin-left: 4%;
+    gap: 30px;
+}
+
+.componto{
+    list-style-type: disc;
+    font-weight: bold;
+    color: #666666;
+    font-size: 13px;
+}
+
+.homeabxtit{
+    font-size: 14px;
+}
+
+.caixacarrosel{
+    border-top: 1px solid #CCCCCC;
+}
+
+.abaixocarrosel{
+    width: 100%;
+    height: 90px;
+    background-color: #98B020;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caixaabaixocarrosel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 22%;
+    height: 90px;
+}
+
+.caixaabaixocarrosel img{
+    width: 45px;
+}
+
+.h4abaixocarrosel{
+    margin-top: 15px;
+    color: white;
+}
+
+.pabaixocarrosel{
+    margin-top: -14px;
+    color: white;
+}
+
+.palavradestaques{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.palavradestaques h2{
+    font-size: 25px;
+    color: #666666;
+    font-weight: normal;
+}
+
+.maincaixas{
+    width: 92%;
+    height: 500px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.sectcaixas{
+    display: grid;
+    grid-template-columns: 25% 26% 25% 26%;
+}
+
+.caixas{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.caixas1, .caixas2, .caixas3, .caixas4, .caixas5, .caixas6, .caixas7, .caixas8, .caixas9, .caixas10, .caixas11, .caixas12{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+div.caixas1:hover .imgcaixa{
+    content: url('../imagens/essenciais/oleo-essencial-lavanda-10ml-phytoterapica-02.jpg');
+    cursor: pointer;
+}
+
+div.caixas2:hover .imgcaixa{
+    content: url('../imagens/essenciais/alecrim.hover.jpg');
+    cursor: pointer;
+}
+div.caixas3:hover .imgcaixa{
+    content: url('../imagens/essenciais/geranio.hover.jpg');
+    cursor: pointer;
+}
+div.caixas4:hover .imgcaixa{
+    content: url('../imagens/essenciais/melaleuca_hover.jpg');
+    cursor: pointer;
+}
+
+div.caixas5:hover .imgcaixa{
+    content: url('../imagens/essenciais/hortela.pimenta.hover.jpg');
+    cursor: pointer;
+}
+div.caixas6:hover .imgcaixa{
+    content: url('../imagens/essenciais/sandalo_amyris.jpg');
+    cursor: pointer;
+}
+div.caixas7:hover .imgcaixa{
+    content: url('../imagens/essenciais/lavanda_bulgaria_hover.jpg');
+    cursor: pointer;
+}
+div.caixas8:hover .imgcaixa{
+    content: url('../imagens/essenciais/eucalipto_hover.jpg');
+    cursor: pointer;
+}
+div.caixas9:hover .imgcaixa{
+    content: url('../imagens/essenciais/copaiba_hover.jpg');
+    cursor: pointer;
+}
+div.caixas10:hover .imgcaixa{
+    content: url('../imagens/essenciais/bergamota_hover.jpg');
+    cursor: pointer;
+}
+div.caixas11:hover .imgcaixa{
+    content: url('../imagens/essenciais/limao_siciliano_hover.jpg');
+    cursor: pointer;
+}
+div.caixas12:hover .imgcaixa{
+    content: url('../imagens/essenciais/patchouli_hover.jpg');
+    cursor: pointer;
+}
+
+.imgcaixa{
+    width: 330px;
+    height: 350px;
+}
+
+.preco{
+    color: #98B148;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.precoprodutodesconto{
+    color: #98B148;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.caixalinhadesconto{
+    height: 20px;
+}
+
+.linhadesconto{
+    text-decoration: line-through;
+
+}
+
+.legendaimg{
+    display: flex;
+    justify-content: left;
+    height: 25px;
+    width: 85%;
+}
+
+.textoparcela{
+    margin-top: -20px;
+}
+
+.imgkitoleos{
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    margin-top: 50px;
+    background-color: #98B148;
+}
+
+.imgkitoleos img{
+    width: 100%;
+}
+
+.articleinicial{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.textosarticle{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 15px;
+    margin-right: 50px;
+
+}
+
+.imgarticleinicial img{
+    margin-top: 60px;
+    width: 260px;
+}
+
+.h4article{
+    color: #333333;
+    font-weight: 100;
+    font-size: 21px;
+}
+
+.p_article{
+    width: 390px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.botaoconheca{
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 150px;
+    height: 35px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.imgabaixoarticle{
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgabaixoarticle img{
+    width: 680px;
+    margin-right: 8px;
+}
+
+.palavralancamento{
+    color: #666666;
+    text-align: center;
+    padding: 28px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+div.caixas13:hover .imgcaixa{
+    content: url('../imagens/sinergias/Sinergia_hover/composto_essencial_equilibrium_15ml_-_phytoter_pica_1_.webp');
+    cursor: pointer;
+}
+
+div.caixas14:hover .imgcaixa{
+    content: url('../imagens/sinergias/Sinergia_hover/ce_citrinos_15ml_2.webp');
+    cursor: pointer;
+}
+div.caixas15:hover .imgcaixa{
+    content: url('../imagens/sinergias/E-commerce_Mockups.jpg');
+    cursor: pointer;
+}
+div.caixas16:hover .imgcaixa{
+    content: url('../imagens/sinergias/Sinergia_hover/composto_essencial_inspire_enfance_15ml_-_phytoter_pica_1_.webp');
+    cursor: pointer;
+}
+div.caixas17:hover .imgcaixa{
+    content: url('../imagens/sinergias/E-commerce_Mockups2.jpg');
+    cursor: pointer;
+}
+div.caixas18:hover .imgcaixa{
+    content: url('../imagens/sinergias/E-commerce_Mockups3.jpg');
+    cursor: pointer;
+}
+div.caixas19:hover .imgcaixa{
+    content: url('../imagens/sinergias/Sinergia_hover/mockup_Defense.webp');
+    cursor: pointer;
+}
+div.caixas20:hover .imgcaixa{
+    content: url('../imagens/sinergias/Sinergia_hover/composto-essencial-harmonize-rollon-10ml-phytoterapica-02.webp');
+    cursor: pointer;
+}
+
+.ultimocarrosel{
+    margin-bottom: -920px;
+}

@@ -1,0 +1,51 @@
+.resumolink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 220px;
+    background-image: url('../imagens/fundoresumolinks.png');
+    background-size: cover;
+}
+
+img{
+    background-size: cover;
+}
+
+.tituloh1{
+    font-size: 28px;
+    color: #666666;
+    margin-left: 4%;
+    font-weight: 500;
+}
+
+.subtitp{
+    width: 45%;
+    margin-top: -10px;
+    color: #9aa3a7;
+    margin-left: 4%;
+}
+
+.linkabxres{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+ul{
+    display: flex;
+    margin-left: 4%;
+    gap: 30px;
+}
+
+.componto{
+    list-style-type: disc;
+    font-weight: bold;
+    color: #666666;
+    font-size: 13px;
+}
+
+.homeabxtit{
+    font-size: 14px;
+}

@@ -1,0 +1,109 @@
+.maincaixas{
+    width: 92%;
+    height: 700px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.sectcaixas{
+    display: grid;
+    grid-template-columns: 25% 26% 25% 26%;
+}
+
+.caixas{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.caixas1, .caixas2, .caixas3, .caixas4, .caixas5, .caixas6, .caixas7, .caixas8, .caixas9, .caixas10, .caixas11, .caixas12{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+div.caixas1:hover .imgcaixa{
+    content: url('../imagens/vegetais/HOVER_leo_vegetal_de_rosa_mosqueta_10ml_-_phytoterapica_2_.jpg');
+    cursor: pointer;
+}
+
+div.caixas2:hover .imgcaixa{
+    content: url('../imagens/vegetais/HOVER_oleo-vegetal-semente-de-uva-50ml-phytoterapica-frasco.jpg');
+    cursor: pointer;
+}
+div.caixas3:hover .imgcaixa{
+    content: url('../imagens/vegetais/HOVER_extrato_oleoso_de_camomila_alem_30_ml_-_phytoterapica_2_.jpg');
+    cursor: pointer;
+}
+div.caixas4:hover .imgcaixa{
+    content: url('../imagens/vegetais/HOVER_leo_vegetal_de_jojoba_30ml_-_phytoterapica_1_.jpg');
+    cursor: pointer;
+}
+div.caixas5:hover .imgcaixa{
+    content: url('../imagens/vegetais/HOVER_Mockup_Frasco_OV_Abacate_cinza.jpg');
+    cursor: pointer;
+}
+div.caixas6:hover .imgcaixa{
+    content: url('../imagens/vegetais/HOVER_Mockup-OV-girassol.jpg');
+    cursor: pointer;
+}
+div.caixas7:hover .imgcaixa{
+    content: url('../imagens/vegetais/HOVER_oleo-vegetal-maracuja-50ml-phytoterapica-frasco.jpg');
+    cursor: pointer;
+}
+div.caixas8:hover .imgcaixa{
+    content: url('../imagens/vegetais/_leo_vegetal_de_rosa_mosqueta_roll_on.jpg');
+    cursor: pointer;
+}
+div.caixas9:hover .imgcaixa{
+    content: url('../imagens/vegetais/semente-uva-2.jpg');
+    cursor: pointer;
+}
+div.caixas10:hover .imgcaixa{
+    content: url('../imagens/vegetais/HOVER_leo_vegetal_de_rosa_mosqueta_30ml_-_phytoterapica_2_.jpg');
+    cursor: pointer;
+}
+div.caixas11:hover .imgcaixa{
+    content: url('../imagens/vegetais/HOVER_b_lsamo_de_copa_ba_20ml_-_phytoterapica_2.jpg');
+    cursor: pointer;
+}
+div.caixas12:hover .imgcaixa{
+    content: url('../imagens/vegetais/HOVER_Mockup_OV_Copaiba_50ml_1000x1000px.jpg');
+    cursor: pointer;
+}
+.imgcaixa{
+    width: 330px;
+    height: 350px;
+}
+
+.preco{
+    color: #98B148;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.precoprodutodesconto{
+    color: #98B148;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.caixalinhadesconto{
+    height: 20px;
+}
+
+.linhadesconto{
+    text-decoration: line-through;
+
+}
+
+.legendaimg{
+    display: flex;
+    justify-content: left;
+    height: 25px;
+    width: 85%;
+}
+
+.textoparcela{
+    margin-top: -20px;
+}

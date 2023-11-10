@@ -1,0 +1,54 @@
+.maincaixas{
+    width: 92%;
+    height: 700px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.sectcaixas{
+    display: grid;
+    grid-template-columns: 25% 26% 25% 26%;
+}
+
+.caixas{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgcaixa{
+    width: 330px;
+    height: 350px;
+}
+
+.preco{
+    color: #98B148;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.precoprodutodesconto{
+    color: #98B148;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.caixalinhadesconto{
+    height: 20px;
+}
+
+.linhadesconto{
+    text-decoration: line-through;
+
+}
+
+.legendaimg{
+    display: flex;
+    justify-content: left;
+    height: 25px;
+    width: 85%;
+}
+
+.textoparcela{
+    margin-top: -20px;
+}

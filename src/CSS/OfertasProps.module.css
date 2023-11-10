@@ -1,0 +1,106 @@
+.maincaixas{
+    width: 92%;
+    height: 700px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.sectcaixas{
+    display: grid;
+    grid-template-columns: 25% 26% 25% 26%;
+}
+
+.caixas{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.caixas1, .caixas2, .caixas3, .caixas4, .caixas5, .caixas6, .caixas7, .caixas8, .caixas9, .caixas10, .caixas11, .caixas12{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+div.caixas1:hover .imgcaixa{
+    content: url('../imagens/ofertas/Ofertas_hover/oleo-essencial-lavanda-10ml-phytoterapica_2.webp');
+    cursor: pointer;
+}
+
+div.caixas2:hover .imgcaixa{
+    content: url('../imagens/ofertas/Ofertas_hover/sabonete-lavanda-rosa-mosqueta-100g-phytoterapica.webp');
+    cursor: pointer;
+}
+div.caixas3:hover .imgcaixa{
+    content: url('../imagens/ofertas/kit-oleos-essenciais-basicos.webp');
+    cursor: pointer;
+}
+div.caixas4:hover .imgcaixa{
+    content: url('../imagens/ofertas/Ofertas_hover/argila-branca-200g-phytoterapica_1.webp');
+    cursor: pointer;
+}
+div.caixas5:hover .imgcaixa{
+    content: url('../imagens/ofertas/Kit_Deles_1000x1000px.webp');
+    cursor: pointer;
+}
+div.caixas6:hover .imgcaixa{
+    content: url('../imagens/ofertas/Ofertas_hover/oleo-essencial-melaleuca-10ml-phytoterapica.webp');
+    cursor: pointer;
+}
+div.caixas7:hover .imgcaixa{
+    content: url('../imagens/ofertas/Ofertas_hover/oleo-essencial-geranio-5ml-phytoterapica-caixa_1.webp');
+    cursor: pointer;
+}
+div.caixas8:hover .imgcaixa{
+    content: url('../imagens/ofertas/Ofertas_hover/OLEO_ESSENCIAL_DE_HORTELA-PIMENTA_10ml_-_Phytoterapica_1_.webp');
+    cursor: pointer;
+}
+div.caixas9:hover .imgcaixa{
+    content: url('../imagens/ofertas/Ofertas_hover/oleo-essencial-bergamota-5ml-phytoterapica-caixa.webp');
+    cursor: pointer;
+}
+div.caixas10:hover .imgcaixa{
+    content: url('../imagens/ofertas/Ofertas_hover/oleo-essencial-eucalipto-globulus-10ml-phytoterapica-caixa.webp');
+    cursor: pointer;
+}
+div.caixas11:hover .imgcaixa{
+    content: url('../imagens/ofertas/Ofertas_hover/oleo-essencial-alecrim-10ml-phytoterapica_3.webp');
+    cursor: pointer;
+}
+
+.imgcaixa{
+    width: 330px;
+    height: 350px;
+}
+
+.preco{
+    color: #98B148;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.precoprodutodesconto{
+    color: #98B148;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.caixalinhadesconto{
+    height: 20px;
+}
+
+.linhadesconto{
+    text-decoration: line-through;
+
+}
+
+.legendaimg{
+    display: flex;
+    justify-content: left;
+    height: 25px;
+    width: 85%;
+}
+
+.textoparcela{
+    margin-top: -20px;
+}
